@@ -1,0 +1,19 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./btSetting/variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// views //
+@import "./pageScss/global";
+@import "./pageScss/mixin";
+@import "./pageScss/home";
+@import "./pageScss/productMusic";
+@import "./pageScss/product";
+@import "./pageScss/dashboard";
+@import "./pageScss/customerOrder";
+@import "./pageScss/customerCheckout";
+@import "./pageScss/customerCode";
+
+// components //
+@import "./pageScss/header";
+@import "./pageScss/footer";
+@import "./pageScss/card";

@@ -1,0 +1,93 @@
+.product-music {
+  .product {
+    padding-top: 80px;
+    padding-bottom: 52px;
+
+    @include md-min {
+      padding-top: 44px;
+      padding-bottom: 44px;
+    }
+  }
+
+  .product-information {
+    width: 50%;
+    margin-right: 30px;
+
+    @include md-min {
+      width: 100%;
+    }
+
+    h2 {
+      font-size: 30px;
+      line-height: 45px;
+      margin-bottom: 24px;
+      color: #ffffff;
+      font-weight: bold;
+
+      @include lg-min {
+        font-size: 28px;
+        line-height: 42px;
+      }
+
+      @include md-min {
+        margin-bottom: 8px;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+      font-weight: bold;
+    }
+  }
+
+  .product-img {
+    width: 500px;
+    margin-right: 30px;
+
+    @include md-min {
+      width: 100%;
+      margin-bottom: 16px;
+    }
+
+    img {
+      width: 500px;
+      height: 285px;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+
+  .show-date {
+    p {
+      font-size: 20px;
+      line-height: 30px;
+      color: #ffffff;
+      font-weight: bold;
+
+      @include lg-min {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  .item-right {
+    h2 {
+      color: $primary;
+    }
+
+    p {
+      color: $primary;
+    }
+  }
+
+  .line-clamp {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+}

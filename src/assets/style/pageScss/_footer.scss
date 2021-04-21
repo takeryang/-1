@@ -1,0 +1,71 @@
+.footer {
+  .subscribe-banner {
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1474403078171-7f199e9d1335?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 0 top 40%;
+
+    p {
+      color: #ffffff;
+      font-size: 32px;
+      line-height: 48px;
+
+      @include md-min {
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+
+    input {
+      height: 48px;
+    }
+
+    button {
+      width: 135px;
+    }
+
+    .col-lg-5 {
+      height: 400px;
+    }
+
+    .subscribe {
+      bottom: 40px;
+      position: absolute;
+
+      @include md-min {
+        bottom: 20px;
+      }
+    }
+  }
+
+  .information {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    h1 {
+      font-size: 22px;
+      font-weight: bold;
+      color: #ffffff;
+      margin: 0;
+    }
+
+    p {
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 24px;
+
+      @include md-min {
+        font-size: 12px;
+      }
+    }
+
+    a {
+      color: #ffffff;
+
+      @include md-min {
+        display: none;
+      }
+    }
+  }
+}

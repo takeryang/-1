@@ -1,0 +1,51 @@
+.code {
+  margin-top: 100px;
+
+  @include md-min {
+    margin-top: 40px;
+  }
+
+  .confirm {
+    margin-bottom: 24px;
+    i {
+      font-size: 44px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  .code-content {
+    margin-bottom: 80px;
+
+    @include md-min {
+      margin-bottom: 40px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold;
+
+      &:first-child {
+        margin-bottom: 20px;
+      }
+    }
+
+    .qrcode {
+      margin-bottom: 40px;
+
+      img {
+        width: 120px;
+        height: 120px;
+      }
+      p {
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+  }
+}

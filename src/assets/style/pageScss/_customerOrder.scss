@@ -1,0 +1,25 @@
+.customer-order {
+  thead {
+    border: 0 solid #000;
+  }
+
+  .order-title {
+    border-bottom: 5px solid $primary;
+    padding-bottom: 8px;
+
+    @include md-min {
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 24px;
+      line-height: 30px;
+      margin: 0;
+    }
+  }
+
+  .table th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
